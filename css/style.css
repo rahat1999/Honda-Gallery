@@ -1,0 +1,74 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+   
+}
+/* header */
+.header-text{
+    color: #E0E0E0;
+    font-size: 14px;
+}
+.header-bg-color{
+    background-color: #264653;
+    height: 100vh;
+    align-items: center;
+}
+.nav-bg-color{
+    background-color: #264653;
+}
+.nav-btn{
+    
+    margin-right: 10px;
+    padding: 6px 24px;
+    border-radius:5px;
+    transition: .8s;
+}
+
+.active, .nav-btn:hover{
+    background-color: #E76F51;
+    color: #FFF;
+}
+.head-btn-all{
+    background: #E76F51;
+    color: #fff;
+    padding: 16px 66px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+/* fetured */
+.fetured-header-title{
+   color:  #E76F51;
+}
+.bike-gray-scale{
+    filter: grayscale(1);
+}
+
+/* happy client section */
+.happy-header-title{
+    color: #0A0826 ;
+    margin: 0;
+}
+
+/* happy client */
+.client-card{
+    width: 149px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.client-name{
+    color: #23A6F0;
+}
+.bike-riding-tips{
+    color: #7E848C;
+    font-weight: 400;
+}
+/* form/ */
+.form-bg-pic{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.589)),url(/images/bike-3.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+   
+}
